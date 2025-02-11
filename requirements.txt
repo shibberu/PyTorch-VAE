@@ -1,6 +1,25 @@
-pytorch-lightning==1.5.6
-PyYAML==6.0
-tensorboard>=2.2.0
-torch>=1.6.1
-torchsummary==1.5.1
-torchvision>=0.10.1
+# PyTorch-VAE Updated Requirements (Lightning 2.0 version)
+# Python >= 3.8 is recommended
+
+# Core deep learning framework
+torch>=1.11
+torchvision>=0.12
+
+# PyTorch Lightning 2.0 (provides the Trainer, strategies, and more)
+pytorch-lightning>=2.0
+
+# Additional scientific libraries
+numpy>=1.19
+
+# YAML for configuration file parsing
+PyYAML>=6.0
+
+# TensorBoard logging (used with TensorBoardLogger)
+tensorboard>=2.10
+
+# Plotting and visualization (for plotting training history, sample images, etc.)
+matplotlib>=3.4
+
+# Optional: TorchMetrics (if you wish to use additional metric utilities)
+torchmetrics>=0.9
+
