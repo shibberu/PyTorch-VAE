@@ -1,3 +1,5 @@
+(Still needs further work. Optimizer code still needs to be cleaned up. Also, data loader taking 25% of epoch time, with 8 GPUs idling most of the time.)
+
 # PyTorch-VAE
 
 [![Python](https://img.shields.io/badge/Python-%3E=3.8-blue.svg)](https://www.python.org/)  
